@@ -1,5 +1,9 @@
 # Telnet Warmup Lab – Write-up
-Introduction
+> **Platform:** Hackviser  
+> **Lab:** Arrow (Warmup)  
+> **Difficulty:** Basic  
+> **Category:** Telnet / Default Credentials
+
 
 In this lab, I practiced the basic penetration testing approach: discovering open services, attempting access, and understanding the risks of weak authentication.
 
@@ -29,7 +33,7 @@ After connecting, the system displayed a login prompt, confirming that authentic
 Telnet services often keep default credentials in misconfigured environments.
 For this reason, I tried commonly used username and password combinations.
 
-The login was successful using default credentials.
+The login attempt using default credentials (root:root) was successful, confirming weak authentication configuration.
 
 This demonstrates how unchanged authentication data can lead directly to unauthorized access.
 
@@ -43,10 +47,11 @@ This showed the working directory and confirmed command execution on the target 
 
 ## What I Learned
 
-Open ports reveal possible attack surfaces
+- Open ports reveal possible attack surfaces
+- Telnet is insecure because it does not encrypt authentication data
+- Default credentials are a major real-world security risk
+- Reconnaissance is the most important step before exploitation
+## Notes
 
-Telnet is insecure because it does not encrypt authentication data
-
-Default credentials are a major real-world security risk
-
-Reconnaissance is the most important step before exploitation
+Screenshots were intentionally not included because the lab environment has limited session time.
+The commands and outputs were reproduced during the analysis process and documented for learning purposes.
