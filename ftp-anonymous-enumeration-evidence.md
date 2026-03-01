@@ -9,15 +9,14 @@ Sensitive values and direct answers are intentionally redacted.
 
 The target system was scanned to identify exposed services.
 
-![scan](images/1.png)
-
+![scan](assets/ftp-anonymous/01-scan.jpeg)
 ---
 
 ## Service Access
 
 A connection to the discovered service was established successfully.
 
-![connection](images/2.png)
+![connection](assets/ftp-anonymous/02-connection.jpeg)
 
 ---
 
@@ -25,7 +24,7 @@ A connection to the discovered service was established successfully.
 
 Accessible resources were enumerated from the service.
 
-![listing](images/3.png)
+![listing](assets/ftp-anonymous/03-listing.jpeg)
 
 ---
 
@@ -33,7 +32,7 @@ Accessible resources were enumerated from the service.
 
 Publicly accessible data was retrieved from the service.
 
-![download](images/4.png)
+![download](assets/ftp-anonymous/04-download.jpeg)
 
 ---
 
@@ -41,7 +40,7 @@ Publicly accessible data was retrieved from the service.
 
 Retrieved content was analyzed locally to evaluate exposure.
 
-![analysis](images/5.png)
+![analysis](assets/ftp-anonymous/05-analysis.jpeg)
 
 ---
 
