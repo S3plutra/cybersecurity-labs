@@ -1,17 +1,16 @@
 
 # Cybersecurity Learning Portfolio
 
-I document my hands-on cybersecurity practice through beginner labs and CTF exercises.
+This repository documents my hands-on cybersecurity practice through labs and attack simulations.
 
-My goal is understanding methodology: enumeration → analysis → exploitation → verification.
+My focus is understanding real attacker methodology:
+enumeration → analysis → exploitation → verification
 
 ## Completed Labs
-
 - Telnet Default Credentials (Hackviser)
 - FTP Anonymous Enumeration (Hackviser)
 
-## Currently Learning
-
-* Linux fundamentals
-* Networking basics
-* Service enumeration
+## Currently Studying
+- Linux fundamentals
+- Networking basics
+- Service enumeration
