@@ -7,7 +7,8 @@ My goal is understanding methodology: enumeration → analysis → exploitation 
 
 ## Completed Labs
 
-* Telnet Default Credentials (Hackviser Warmup)
+- Telnet Default Credentials (Hackviser)
+- FTP Anonymous Enumeration (Hackviser)
 
 ## Currently Learning
 
